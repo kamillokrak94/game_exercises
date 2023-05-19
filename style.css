@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1000px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  color: rgb(77, 77, 77);
+}
+
+button {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+.scores {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.scores p {
+  background: green;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.scores .comp {
+  background: blue;
+}
+
+.scores span {
+  font-size: 35px;
+}
+.options button {
+  border: none;
+  margin: 30px;
+}
+
+.options button img {
+  width: 200px;
+  height: 240px;
+}
+
+.choices {
+  font-size: 30px;
+}
+
+.results-text {
+  font-size: 40px;
+  background: green;
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+}
+
+.reset-game {
+  background: rgb(49, 49, 49);
+  color: white;
+  font-size: 18px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.reset-game:hover {
+  background: rgb(49, 49, 49, 0.876);
+}
